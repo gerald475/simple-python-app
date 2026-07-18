@@ -70,7 +70,7 @@ jobs:
       - name: Checkout GitOps Repo
         uses: actions/checkout@v4
         with:
-          repository: 't3chgangsta/k8s-gitops-repo'
+          repository: 'gerald475/k8s-gitops-repo'
           token: ${{ secrets.GITOPS_GITHUB_TOKEN }} 
 
       - name: Install YQ
