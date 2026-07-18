@@ -56,5 +56,5 @@ jobs:
           context: .
           push: true
           tags: |
-            gerald475/simple-python-app:latest
-            gerald475/simple-python-app:${{ github.sha }}
+            ${{ vars.DOCKERHUB_USERNAME }}/simple-python-app:latest
+            ${{ vars.DOCKERHUB_USERNAME }}/simple-python-app:${{ github.sha }}
